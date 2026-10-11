@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моё первое портфолио</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">my<span>space</span></a>
+    <button id="theme-toggle" class="theme-button">
+  Сменить тему ◐
+</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">МОЙ ПЕРВЫЙ ВЕБ-ПРОЕКТ</p>
+      <h1>Создаю.<br><span>Изучаю.</span><br>Пробую новое.</h1>
+      <p class="description">
+        Я начинающий разработчик. Здесь я собираю проекты,
+        эксперименты и идеи, которые постепенно превращаю в реальность.
+      </p>
+      <a class="button" href="#projects">Посмотреть проекты ↗</a>
+    </section>
+
+    <section id="projects" class="projects">
+      <p class="eyebrow">ЧТО Я ДЕЛАЮ</p>
+      <h2>Мои проекты</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="number">01 / PYTHON</span>
+          <h3>Первый скрипт</h3>
+          <p>Маленькие программы и эксперименты с кодом.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="number">02 / WEB</span>
+          <h3>Этот сайт</h3>
+          <p>Мой первый шаг в HTML, CSS и JavaScript.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="number">03 / IDEAS</span>
+          <h3>Что дальше?</h3>
+          <p>Новые проекты, эксперименты и интересные задачи.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Сделано с нуля · <span id="year"></span></p>
+  </footer>
+</body>
+</html>
